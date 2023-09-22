@@ -1,0 +1,56 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.category-modal {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 2%;
+  padding-right: 50%;
+}
+
+.menu-button button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.menu-button button:hover {
+  text-decoration: underline;
+}
+
+.category-modal button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 5px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.white-icon {
+  color: white;
+}
